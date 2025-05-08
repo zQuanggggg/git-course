@@ -1,0 +1,2 @@
+Câu lệnh cài đặt gmail là: git config --global user.email "Your email"
+Câu lệnh cài đặt tên là: git config --global user.name "Name"
