@@ -1,0 +1,4 @@
+git init: Khởi tạo thư mục 
+git add <file name>: Thêm thư mục <file name> vào vùng Staging Area, chuẩn bị cho việc commit
+git add .: Thêm toàn bộ thư mục vào vùng Staging Area Area
+git commit -m "message": tạo tiêu đề với tin nhắn là <message> trong câu lệnh
