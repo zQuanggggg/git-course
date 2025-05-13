@@ -1,4 +1,18 @@
-git init: Khởi tạo thư mục 
-git add <file name>: Thêm thư mục <file name> vào vùng Staging Area, chuẩn bị cho việc commit
-git add .: Thêm toàn bộ thư mục vào vùng Staging Area Area
-git commit -m "message": tạo tiêu đề với tin nhắn là <message> trong câu lệnh
+Bài tập 1:
+    git init: Khởi tạo thư mục 
+    git add <file name>: Thêm thư mục <file name> vào vùng Staging Area, chuẩn bị cho việc commit
+    git add .: Thêm toàn bộ thư mục vào vùng Staging Area Area
+    git commit -m "message": tạo tiêu đề với tin nhắn là <message> trong câu lệnh.
+Bài tập 2:
+a. Tạo 3 file: file1, file2, file3
+- cả 3 file chưa trong vùng hoạt động của git
+b. Chạy lệnh: git init
+- Cả 3 file trong vùng Working Directory.
+c. Chạy lệnh: git commit -m”init project”
+- Cả 3 file trong vùng Working Directory.
+d. Chạy lệnh: git add file1
+- file1 trong vùng Staging Area, file2 và file3 trong vùng Working Directory.
+e. Chạy lệnh: git commit -m”add file1”
+- file1 trong vùng repository, file2 và file3 trong vùng Working Directory.
+f. Chạy lệnh: git add file
+- file1 trong vùng repository, file2 và file3 trong vùng Working Directory.
